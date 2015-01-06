@@ -15,4 +15,4 @@ ln -sf /config/config.ini /sickbeard/
 ln -sf /config/sickbeard.db /sickbeard/sickbeard.db
 #ln -sf /config/autoProcessTV.cfg sickbeard/autoprocesstv/autoProcessTV.cfg
 
-/usr/bin/python SickBeard.py
+exec /usr/bin/python SickBeard.py
