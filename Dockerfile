@@ -4,9 +4,8 @@ MAINTAINER tim@haak.co.uk
 ENV SICKBEARD_VERSION master
 
 RUN apt-get -q update &&\
-    apt-get install -qy --force-yes python-cheetah
-
-RUN curl -L https://github.com/midgetspy/Sick-Beard/tarball/$SICKBEARD_VERSION -o sickbeard.tgz && \
+    apt-get install -qy --force-yes python-cheetah && \
+    curl -L https://github.com/midgetspy/Sick-Beard/tarball/$SICKBEARD_VERSION -o sickbeard.tgz && \
     tar -xvf sickbeard.tgz -C /  &&\
     mv /midgetspy-Sick-Beard-* /sickbeard/ &&\
     rm  /sickbeard.tgz && \
