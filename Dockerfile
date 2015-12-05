@@ -1,5 +1,5 @@
 FROM timhaak/base:latest
-MAINTAINER tim@haak.co.uk
+MAINTAINER tim@haak.co
 
 ENV SICKBEARD_VERSION master
 
