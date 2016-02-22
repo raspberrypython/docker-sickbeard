@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build --rm -t timhaak/sickbeard .
+docker build --rm -t raspberrypython/sickbeard .

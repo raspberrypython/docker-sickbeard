@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build --rm --no-cache -t timhaak/sickbeard .
+docker build --rm --no-cache -t raspberrypython/sickbeard .
